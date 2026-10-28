@@ -1,0 +1,17 @@
+{
+  "name": "@jayashakthiwso2/trusted-publishing-demo",
+  "version": "0.0.1",
+  "description": "A small demo package published to npm with trusted publishing from GitHub Actions.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayaShakthi97/npm-trusted-publishing-demo.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
